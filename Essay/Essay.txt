@@ -1,0 +1,33 @@
+1. Apa itu React?
+Jawab :
+React adalah salah satu library javascript untuk membangun User Interface. React digunakan untuk mempermudah dalam membangun website yang dinamis.
+
+2. Apa keunggulan React?
+Jawab :
+ a) Dapat membuat aplikasi/website single-page (SPA)
+ b) Memiliki teknologi Virtual DOM
+ c) Popular sehingga komunitasnya besar dan banyak yang membutuhkannya
+
+3. Apa itu SPA pada React?
+Jawab :
+SPA (Single Page Application) adalah  jenis aplikasi web yang memuat hanya satu halaman web tunggal dan dinamis, di mana konten dari halaman tersebut akan diperbarui secara dinamis tanpa harus me-refresh keseluruhan halaman.
+
+4. Apa itu state dan props? Apa perbedaannya?
+Jawab :
+State adalah data yang hidup pada sebuah komponen dan sifatnya dinamis (dapat berubah), sementara props adalah data yang diberikan dari komponen induk ke komponen anak sebagai argumen. Perbedaan utama antara keduanya adalah bahwa state dikelola oleh komponen itu sendiri, sementara props diteruskan dari komponen induk.
+
+5. Kapan harus menggunakan state dan props? Berikan contoh studi kasus
+Jawab :
+State digunakan ketika data yang relevan dengan sebuah komponen hanya berpengaruh pada komponen tersebut dan tidak perlu dibagikan dengan komponen lain. Contohnya, dalam sebuah form input, nilai input yang dimasukkan oleh pengguna dapat disimpan dalam state komponen tersebut. Props digunakan ketika data perlu dibagikan dari komponen induk ke komponen anak. Misalnya, sebuah komponen daftar (list) menerima data daftar dari komponen induknya melalui props.
+
+6. Apa itu state management dan kapan harus menggunakannya?
+Jawab :
+State management adalah teknik untuk mengelola state dari aplikasi secara global agar mudah diakses dan diperbarui oleh berbagai komponen. Hal ini sering diperlukan ketika aplikasi memiliki state yang kompleks dan perlu dibagikan di antara banyak komponen. State management memungkinkan pengelolaan state secara terpusat dan dapat diakses dari berbagai bagian aplikasi.
+
+7. Apa itu ORM/ODM?
+Jawab :
+ORM (Object-Relational Mapping) dan ODM (Object-Document Mapping) adalah teknik untuk memetakan objek dalam sebuah bahasa pemrograman (biasanya objek berorientasi data) ke struktur data dalam basis data relasional (ORM) atau basis data non-relasional/document-oriented (ODM).
+
+8.Apa perbedaan SQL dan NoSQL?
+Jawab :
+SQL (Structured Query Language) adalah bahasa untuk mengelola dan memanipulasi data dalam basis data relasional, sementara NoSQL adalah pendekatan untuk basis data yang tidak menggunakan SQL dan tidak mematuhi skema relasional tradisional. Perbedaan utamanya adalah SQL berbasis tabel dengan skema yang tetap, sedangkan NoSQL bersifat fleksibel dengan skema yang dinamis.
